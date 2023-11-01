@@ -45,6 +45,11 @@ span.borda-esquerda {
     width: 200px;
 }
 
+span.app-text{
+    color: white;
+    font-size: 12px;
+}
+
 div#barra {
     width: 100vw;
     height: 50px;
