@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100vw;
+    background-image: url(https://t2.tudocdn.net/671748?w=1920);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div#menu, div#barra {
+    bottom: 0;
+    position: fixed;
+    
+}
+
+div#menu {
+    background-color: #292a2a;
+    margin-bottom: 60px;
+    width: 580px;
+    height: 550px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+input.borda-direita{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 12px;
+    border: none;
+}
+
+span.borda-esquerda {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+#input-barra{
+    width: 200px;
+}
+
+div#barra {
+    width: 100vw;
+    height: 50px;
+    text-align: center;
+    background-color: #292a2a;    
+    padding: 10px;
+}
