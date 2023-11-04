@@ -52,7 +52,7 @@ span.borda-esquerda {
 }
 
 span.app-text{
-    color: white;
+    color: rgba(255, 255, 255, 0.822);
     font-size: 12px;
     cursor:default;
 }
@@ -92,4 +92,7 @@ span.mais:hover {
 
 #power {
     filter: invert(100%);
+}
+#data, #hora {
+    font-size: 0.8em;
 }
