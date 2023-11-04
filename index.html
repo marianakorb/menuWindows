@@ -9,7 +9,7 @@
 
   </head>
   <body>
-    <div id="menu" class="d-flex flex-column justify-content-between">
+    <div id="menu" class="d-flex flex-column justify-content-between visibilidade">
         <section class="p-3">
             <div>
                 <div class="input-group flex-nowrap">
@@ -20,11 +20,11 @@
                   </div>
             </div>
         </section>
-        <section class="border border-primary">
+        <section>
         <div class="container text-center">
             <div class="d-flex justify-content-between">
-                <div class=""><p class="text-light">Fixado</p></div>
-                <div class=""><button>Todos os aplicativos > </button></div>
+                <div><p class="text-light ms-4">Fixado</p></div>
+                <div><span class="mais p-2 me-4">Todos os aplicativos > </span></div>
                 
             </div>
             <div class="row mt-3">
@@ -56,27 +56,52 @@
 
         <section class="me-5 ms-5">
           <div class="d-flex justify-content-between">
-            <div class=""><p class="text-light">Recomendações</p></div>
-            <div class=""><button>Mais > </button></div>
+            <div><p class="text-light">Recomendações</p></div>
+            <div><span class="mais p-2">Mais ></span></div>
           </div>
 
             <div class="row">
-              <div class="col"><img src="imagens/pasta.png" alt=""><span class="app-text ms-2">Arquivos</span></div>
-              <div class="col"><img src="imagens/xlsx.png" alt=""><span class="app-text ms-1">texte(1).xls</span></div>
+              <div class="col p-2">
+                <div class="d-flex">
+                  <img src="imagens/pasta.png" alt=""><span class="app-text ms-2">Meus arquivos</span>
+                </div>
+              </div>
+              <div class="col p-2">
+                <div class="d-flex">
+                  <img src="imagens/xlsx.png" alt=""><span class="app-text ms-1">QiCloud-Apontamentos.xls</span>
+                </div>
+              </div>
             </div>
             <div class="row">
-              <div class="col"><img src="imagens/pasta.png" alt=""><span class="app-text ms-2">Arquivos</span></div>
-              <div class="col"><img src="imagens/xlsx.png" alt=""><span class="app-text ms-1">texte(2).xls</span></div>
+              <div class="col p-2">
+                <div class="d-flex">
+                  <img src="imagens/xlsx.png" alt=""><span class="app-text ms-2">template_2.xls</span>
+                </div>
+              </div>
+              <div class="col p-2">
+                <div class="d-flex">
+                  <img src="imagens/xlsx.png" alt=""><span class="app-text ms-1">texte(3).xls</span>
+                </div>
+              </div>
             </div>
             <div class="row">
-              <div class="col"><img src="imagens/pasta.png" alt=""><span class="app-text ms-2">Arquivos</span></div>
-              <div class="col"><img src="imagens/xlsx.png" alt=""><span class="app-text ms-1">texte(3).xls</span></div>
+              <div class="col p-2">
+                <div class="d-flex">
+                  <img src="imagens/pasta.png" alt=""><span class="app-text ms-2">colaboreTemplate</span>
+                </div>
+              </div>
+              <div class="col p-2">
+                <div class="d-flex">
+                  <img src="imagens/xlsx.png" alt=""><span class="app-text ms-1">QiCloud-Atividades.xls</span>
+                </div>
+              </div>
               
             </div>
             
            
         </section>
-        <section class="d-flex justify-content-between">
+        <section class="d-flex justify-content-between bg-dark
+        p-2">
           <div class="ms-5">
             <img src="imagens/user.png" alt="">
             <span class="app-text ms-2">Mariana</span>
@@ -89,7 +114,7 @@
 
     <div id="barra" class="d-flex">
      
-      <div id="janela">
+      <div id="janela" onclick="getVisible()">
           <img src="imagens/janelas.png" alt="">
       </div>
       <div class="input-group flex-nowrap ms-2" id="input-barra">
@@ -100,6 +125,6 @@
               </div>
       </div>
 
-    
+    <script src="js/script.js"></script>
   </body>
 </html>

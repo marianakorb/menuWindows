@@ -20,11 +20,16 @@ div#menu, div#barra {
     
 }
 
+.visibilidade {
+    
+    visibility: hidden;
+}
+
 div#menu {
     background-color: #292a2a;
     margin-bottom: 60px;
-    width: 560px;
-    height: 550px;
+    width: 570px;
+    height: 590px;
     border-radius: 5px;
     padding: 15px;
     text-align: center;
@@ -62,6 +67,19 @@ div#barra {
     text-align: center;
     background-color: #292a2a;    
     padding: 10px;
+}
+
+span.mais {
+    color: beige;
+    font-size: 0.8em;
+    background-color: #3d3e3e;
+    border: none;
+    border-radius: 10px;
+    cursor: default;
+}
+
+span.mais:hover {
+    background-color: #3d3e3e7c;
 }
 
 #janela {
